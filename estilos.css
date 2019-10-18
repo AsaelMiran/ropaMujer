@@ -1,0 +1,41 @@
+body{
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+.galeria{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+}
+.tarjeta{
+	width: 32%;
+	border: 1px solid black;
+	margin-bottom: 9px;
+
+}
+.titulo{
+	text-align: center;
+	font-size: 300%;
+	background-color: hsl(170, 90%, 45%);
+	margin-top: 0;
+}
+
+p{
+	color: black;
+	text-align: center;
+}
+i{
+	font-size: 3em;
+	margin: .2em;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	background-color: hsl(160, 90%, 40%);
+}
+h3{
+	text-align: center;
+	font-size: 200%;
+    color: red
